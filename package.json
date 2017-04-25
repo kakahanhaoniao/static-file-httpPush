@@ -1,0 +1,23 @@
+{
+  "name": "koaServerPushWithCache",
+  "description": "HTTP2 push middleware for koa with koa-cache",
+  "version": "1.0.0",
+  "author": {
+    "name": "xiaoshao"
+  },
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "debug": "^2.2.0",
+    "mz": "^2.1.0"
+  },
+  "main": "lib/serverpush.js",
+  "devDependencies": {
+    "koa": "^2.2.0",
+    "koa-server-push": "^0.1.0",
+    "koa-static-cache": "^5.0.1"
+  },
+  "scripts": {
+    "server": "supervisor --inspect index.js"
+  },
+  "license": "ISC"
+}
